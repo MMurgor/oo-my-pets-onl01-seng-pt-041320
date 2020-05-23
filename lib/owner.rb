@@ -1,4 +1,4 @@
-reqiure 
+reqiure 'pry'
 
 class Owner
   # code goes here
