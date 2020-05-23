@@ -2,7 +2,6 @@ require 'pry'
 
 class Owner
   # code goes here
-end 
   attr_accessor :name, :pets
   attr_reader :species
 end
