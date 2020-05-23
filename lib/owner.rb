@@ -14,6 +14,7 @@ end
     @@owners << self
     @pets = {fishes: [], dogs: [], cats: []}
   end
+end
 
   def self.all
     @@owners
@@ -22,6 +23,7 @@ end
   def self.reset_all
     self.all.clear
   end
+end
 
   def self.count
     self.all.count
@@ -30,18 +32,22 @@ end
   def say_species
     "I am a #{@species}."
   end
+end
 
   def buy_fish(fish_name)
     pets[:fishes] << Fish.new(fish_name)
   end
+end
 
   def buy_cat(cat_name)
     pets[:cats] << Cat.new(cat_name)
   end
+end
 
   def buy_dog(dog_name)
     pets[:dogs] << Dog.new(dog_name)
   end
+end
 
   def walk_dogs
     pets[:dogs].each do |dog|
