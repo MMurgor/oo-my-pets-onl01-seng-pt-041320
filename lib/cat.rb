@@ -2,9 +2,9 @@ require 'pry'
 
 class Cat
   # code goes here
-end 
   attr_accessor :mood
   attr_reader :name
+end
 
   def initialize(name)
     @name = name
