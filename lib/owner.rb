@@ -10,7 +10,7 @@ end
     @species = species
     @@all << self
     @pets = pets
-    @@owners
+    @@owners << self
   end
 
   def self.all
