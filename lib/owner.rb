@@ -9,7 +9,7 @@ end
   def initialize(species)
     @species = species
     @@all << self
-    @pets = { :fishes => [], :dogs => [], :cats => [] }
+    @pets = pets
   end
 
   def self.all
