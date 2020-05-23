@@ -1,4 +1,4 @@
-reqiure 'pry'
+require 'pry'
 
 class Owner
   @@all= []
